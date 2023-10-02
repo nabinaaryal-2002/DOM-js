@@ -12,25 +12,31 @@
 
 //BULB
 
-var bulb= document.querySelector(".bulb")
-var btn = document.querySelector("button")
+// var bulb= document.querySelector(".bulb")
+// var btn = document.querySelector("button")
 
-var change =0
+// var change =0
 
-btn.addEventListener("click", function(){
-  if(change == 0){
-    bulb.style.backgroundColor = "yellow"
-    btn.style.backgroundColor = "red"
-    btn.innerHTML = "ON"
-    console.log("yes")
-    change = 1
-  }else{
-    bulb.style.backgroundColor = "transparent"
-    btn.style.backgroundColor = "blue"
-    btn.innerHTML = "OFF"
-    console.log("No")
-    change = 0
-  }
+// btn.addEventListener("click", function(){
+//   if(change == 0){
+//     bulb.style.backgroundColor = "yellow"
+//     btn.style.backgroundColor = "red"
+//     btn.innerHTML = "ON"
+//     console.log("yes")
+//     change = 1
+//   }else{
+//     bulb.style.backgroundColor = "transparent"
+//     btn.style.backgroundColor = "blue"
+//     btn.innerHTML = "OFF"
+//     console.log("No")
+//     change = 0
+//   }
+// })
+
+
+// MULTIPLE EVENTS 
+var h = document.querySelectorAll("h1")
+// console.log(h)
+h.forEach(function(e){
+  console.log(e)
 })
-
-
